@@ -89,3 +89,7 @@ ul li a {
 .bg-blue-light {
     background-color: var(--color-blue-light);
 }
+
+.bg-light {
+    background-color: var(--color-light);
+}
