@@ -5,6 +5,9 @@
     --color-dark: #222;
     --color-blue-light: #2C70FF;
     --color-blue-dark: #122AB2;
+    --color-purple: #AE81FF;
+    --color-pink: #F9265E;
+    --color-blue: #66D9EB;
 }
 
 html, body {
@@ -85,6 +88,18 @@ hr {
     margin: 0 !important;
     border-bottom: 0 !important;
     border-top: 7px solid;
+}
+
+.p-purple {
+    border-color: var(--color-purple);
+}
+
+.p-pink{
+    border-color: var(--color-pink);
+}
+
+.p-blue{
+    border-color: var(--color-blue);
 }
 
 .card-title {
