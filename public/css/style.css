@@ -35,3 +35,30 @@ body{
 .bg-light {
     background-color: var(--color-light);
 }
+
+.navbar-light,
+.navbar-brand,
+.navbar-toggler,
+.navbar-nav,
+.nav-link.active,
+.text-light,
+.nav-link  {
+    color: var(--color-light) !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-item {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+hr {
+    max-width: 1240px;
+    height: 2px !important;
+    color: var(--color-blue-light);
+    opacity: 1;
+}
