@@ -66,3 +66,32 @@ hr {
     color: var(--color-blue-light);
     opacity: 1;
 }
+
+.card {
+    border: 0 !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+.card-body {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+.card-header {
+    padding: 0 !important;
+    margin: 0 !important;
+    border-bottom: 0 !important;
+    border-top: 7px solid;
+}
+
+.card-title {
+    margin-bottom: 0 !important;
+}
+
+.card-footer {
+    padding: 0 !important;
+    border: 0 !important;
+}
