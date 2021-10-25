@@ -24,70 +24,12 @@ body{
     line-height: 20px;
 }
 
-.row {
-    width: 100%;
-}
-
-.container {
-    width: 980px;
-    margin: 0 auto;
-}
-
-.menu-alert {
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.bg-blue-light {
+    background-color: var(--color-blue-light);
 }
 
 .bg-blue-dark {
     background-color: var(--color-blue-dark);
-}
-
-.text-light {
-    color: var(--color-light);
-}
-
-.menu {
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu-flex {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.logo {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-ul {
-    list-style: none;
-}
-
-ul li {
-    display: inline;
-    font-size: 1em;
-    line-height: 32px;
-    font-weight: bold;
-    padding-left: 20px;
-}
-
-ul li a {
-    text-decoration: none;
-    color: var(--color-light);
-}
-
-.text-dark {
-    color: var(--color-dark);
-}
-
-.bg-blue-light {
-    background-color: var(--color-blue-light);
 }
 
 .bg-light {
